@@ -1,5 +1,5 @@
 var text = document.getElementById("text");
-var socket = io.connect();
+var socket = io.connect("https://" + location.hostname);
 
 function handle_onclick() {
     socket.emit("LaLaLa", {my: "data"});
