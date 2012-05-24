@@ -1,0 +1,11 @@
+here's the code live so you can see it
+(if you see stuff in the text box it worked):
+http://socketio-ssl-test.herokuapp.com/ 
+
+
+Verified Works:
+ * Chrome 18.0.1025.151
+ * Firefox 12
+
+Verified Does Not Work:
+ * IE9
