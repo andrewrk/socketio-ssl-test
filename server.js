@@ -10,7 +10,7 @@ var app = http.createServer(function(req, res) {
     });
 });
 
-app.listen(80);
+app.listen(process.env.PORT || 8001);
 io = socketio.listen(app);
 
 io.configure(function() {
